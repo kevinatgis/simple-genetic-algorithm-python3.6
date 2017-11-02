@@ -15,26 +15,3 @@ User configurable variables
 
 peeps_n  -  population of our peep test subjects
 top_n   -  arbritrary selection factor
-        
-                                   ___
-                               ,-""   `.
-                             ,'  _   e )`-._
-                            /  ,' `-._<.===-'
-                           /  /
-                          /  ;
-              _.--.__    /   ;
- (`._    _.-""       "--'    |
- <_  `-""                     \
-  <`-                          :
-   (__   <__.                  ;
-     `-.   '-.__.      _.'    /
-        \      `-.__,-'    _,'
-         `._    ,    /__,-'
-            ""._\__,'< <____
-                 | |  `----.`.
-                 | |        \ `.
-                 ; |___      \-``
-                 \   --<
-                  `.`.<
-                    `-'
-                    hjw
