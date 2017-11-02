@@ -216,7 +216,7 @@ def selection(peeps_fitness,n=top_n):
 # print(selection(pf,n))
 
 
-def illbeinmybunk(spf,peeps,peeps_n,p):
+def reproduction(spf,peeps,peeps_n,p):
     '''Returns list of the next generation of peeps, based on selection survivors, populates up to peeps_n
     
     Assumes that there are only two genes: {0,1} with p(0)=1-p(1)
@@ -345,7 +345,7 @@ def GA_run():
         else:
             # peeps get purged, I mean selected
             selected_peeps = selection(peeps_fitness)
-            current_gen_peeps = illbeinmybunk(selected_peeps,current_gen_peeps,peeps_n,p)
+            current_gen_peeps = reproduction(selected_peeps,current_gen_peeps,peeps_n,p)
             generation+=1
             print('Generation: {}'.format(generation))
             print('Current: {}'.format((list(current_gen_peeps.values()))))
