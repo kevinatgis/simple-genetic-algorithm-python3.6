@@ -12,6 +12,7 @@ We will need to model the following GA principals
 - creating a selection function
 - creating a goal/termination point
   
+Selection is done via asexual reproduction. Implementing sexual afterwards.
   
 User configurable variables  
 
