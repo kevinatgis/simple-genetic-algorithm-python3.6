@@ -11,7 +11,8 @@ We will need to model the following GA principals
 - creating a fitness function
 - creating a selection function
 - creating a goal/termination point
+
 User configurable variables
 
 peeps_n  -  population of our peep test subjects
-top_n   -  arbritrary selection factor
+top_n    -  arbritrary selection factor
